@@ -9,7 +9,7 @@ pipeline{
         stage("building app"){
             steps{
                 echo "building app"
-                bat ''' python app.py '''
+                bat ''' python sum.py '''
             }
         }
     }
